@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containersmall {
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+.debug {
+  border: 1px solid black;
+  min-height: 100px;
+}
