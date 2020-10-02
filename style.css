@@ -7,8 +7,7 @@
   margin-left: 170px;
   margin-right: 170px;
 }
-
 .debug {
   border: 1px solid black;
-  min-height: 100px;
+  min-height: 50px;
 }

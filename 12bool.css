@@ -1,5 +1,5 @@
 .container {
-  max-width: 1170px;
+  max-width: 1348px;
   margin: auto;
 }
 .container::after {
@@ -82,4 +82,5 @@
 /* WARNING: questo "*" indica "tutti gli elementi che hanno una classe che contiene col-" */
 [class*="col-"] {
   float: left;
+  border: 1px solid black;
 }
