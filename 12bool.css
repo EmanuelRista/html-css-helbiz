@@ -82,4 +82,5 @@
 /* WARNING: questo "*" indica "tutti gli elementi che hanno una classe che contiene col-" */
 [class*="col-"] {
   float: left;
+  position: relative;
 }
