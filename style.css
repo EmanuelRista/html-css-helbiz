@@ -20,6 +20,23 @@
   height: 64px;
   line-height: 64px;
 }
+
+.height340 {
+  height: 340px;
+}
+
+.height630 {
+  height: 630px;
+}
+
+.margin32v {
+  margin: 31px 0px;
+}
+
+.margin124o {
+  margin: 0px 124px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -31,4 +48,18 @@
 .herobg {
   background-image: url("img/hero-bg.jpg");
   height: 554px;
+}
+
+.indexbg {
+  height: 500px;
+  background-image: url("img/indexbanner.jpg");
+}
+
+.greybg {
+  background-color: #FAFAFA;
+  border: 16px solid white;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  padding-left: 15px;
+  padding-right: 15px;
 }
