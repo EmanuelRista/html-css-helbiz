@@ -1,78 +1,87 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
-  font-family: Tahoma,sans-serif;
-}
-.containersmall {
-  margin-left: 170px;
-  margin-right: 170px;
 }
 .debug {
   border: 1px solid black;
-  min-height: 50px;
+  min-height: 100px;
 }
-.logo {
-  height: 12.2px;
-  vertical-align: middle;
+.head-header {
+  height: 56px;
 }
-.height64 {
-  height: 64px;
-  line-height: 64px;
+#head-logo {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
 }
-
-.height340 {
-  height: 340px;
+.c-navitem-text {
+  font-size: 14px;
 }
-
-.height500 {
-  height: 500px;
+.custom-button {
+  background-color: black;
 }
-
-.height630 {
-  height: 630px;
+#hero-text {
+  padding: 15rem 0;
 }
-
-.margin32v {
-  margin: 31px 0px;
-}
-
-.margin124o {
-  margin: 0px 124px;
-}
-
-.text-center {
-  text-align: center;
-}
-.menubar {
-  float: left;
-  padding-right: 1.35%;
-  padding-left: 1.35%;
-}
-.herobg {
+#hero-bg {
   background-image: url("img/hero-bg.jpg");
-  height: 554px;
+  background-size: cover;
 }
-
-.indexbg {
-  height: 500px;
+/* End Header */
+#main-1 {
+  padding: 4rem;
+}
+#main-1-col {
+  padding: 1rem;
+}
+#main-1-col-2 {
+  padding: 1rem;
+}
+#product {
+  padding: 4rem;
+}
+.image-products {
+  width: 100%;
+}
+#main-hero {
   background-image: url("img/indexbanner.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50%;
 }
-.greybg {
-  background-color: #FAFAFA;
-  border: 16px solid white;
-  padding-top: 6rem;
-  padding-bottom: 2rem;
-  padding-left: 15px;
-  padding-right: 15px;
+.column-maps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.middle {
-  vertical-align: middle;
+#maps {
+  width: 80%;
 }
-
-
-.valign {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+.column-main-hero-text {
+  padding-top: 50%;
+  padding-bottom: 16rem;
+}
+#moped-bg {
+  background-image: url("img/bg-mono.jpg");
+  background-size: cover;
+  padding: 6rem 0;
+}
+.p-bigger {
+  font-size: 22px;
+}
+#main-2 {
+  padding: 1rem;
+}
+.bg-city {
+  background-image: url("img/city.jpg");
+  background-size: cover;
+}
+#main-2-col {
+  padding: 1rem 0;
+  padding-right: 1rem;
+}
+#main-2-col-2 {
+  padding: 1rem 0;
+  padding-left: 1rem;
 }
