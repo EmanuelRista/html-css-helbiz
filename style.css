@@ -88,8 +88,9 @@
   padding-left: 1rem;
 }
 #square-link {
-  padding: 4rem;
+  padding-top: 4rem;
   height: 45rem;
+  position: relative;
 }
 #footer-logo {
 margin-top: 4rem;
@@ -115,4 +116,12 @@ li {
 }
 .bg-black {
   background-color: black;
+}
+.iphone-image {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+}
+.iphone {
 }
